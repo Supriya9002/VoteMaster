@@ -33,17 +33,9 @@ This project is a web-based voting application that allows users to participate 
 - **config/:** Includes configuration files for database connection and other settings.
 ## Usage
 1. Clone the repository:
-```bash
-git clone https://github.com/your-username/voting-application
+   ```bash
+   git clone https://github.com/your-username/voting-application
 
-2. Install dependencies:
-```bash
-npm install
-
-3. Set up environment variables for database connection and other configurations.
-4. Start the server:
-```bash
-npm start
 
 ## License
 (****Not Created****)
