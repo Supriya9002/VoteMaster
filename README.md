@@ -12,26 +12,26 @@ Admin Panel: Admins can manage the list of candidates, including creating, updat
 ### User Authentication
 /signup (POST): Create a new user account.
 /login (POST): Log in to an existing account using Aadhar card number and password.
-Voting
+### Voting
 /candidates (GET): Get the list of candidates.
 /vote/:candidateId (POST): Vote for a specific candidate.
-Vote Counts
+### Vote Counts
 /vote/counts (GET): Get the list of candidates sorted by their vote counts.
 User Profile
 /profile (GET): Get the user's profile information.
 /profile/password (PUT): Change the user's password.
-Admin Candidate Management
+### Admin Candidate Management
 /candidates (POST): Create a new candidate.
 /candidates/:candidateId (PUT): Update an existing candidate.
 /candidates/:candidateId (DELETE): Delete a candidate from the list.
-Project Structure
+## Project Structure
 server.js: Contains the server-side logic, setting up routes, and managing database connections.
 controllers/: Contains controller functions for handling different API endpoints.
 models/: Defines MongoDB schemas for users and candidates.
 routes/: Defines routes for different API endpoints.
 middlewares/: Contains middleware functions for authentication and error handling.
 config/: Includes configuration files for database connection and other settings.
-Usage
+## Usage
 Clone the repository:
 
 bash
@@ -49,9 +49,9 @@ Start the server:
 bash
 Copy code
 npm start
-License
+## License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-Author
+## Author
 Your Name
 GitHub: Your GitHub Profile
