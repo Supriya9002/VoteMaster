@@ -32,25 +32,21 @@ This project is a web-based voting application that allows users to participate 
 - **middlewares/:** Contains middleware functions for authentication and error handling.
 - **config/:** Includes configuration files for database connection and other settings.
 ## Usage
-Clone the repository:
-
-bash
-Copy code
+1. Clone the repository:
+```bash
 git clone https://github.com/your-username/voting-application
-Install dependencies:
 
-bash
-Copy code
+2. Install dependencies:
+```bash
 npm install
-Set up environment variables for database connection and other configurations.
 
-Start the server:
-
-bash
-Copy code
+3. Set up environment variables for database connection and other configurations.
+4. Start the server:
+```bash
 npm start
-## License
 
+## License
+(****Not Created****)
 
 ## Author
 Supriya Haldar<br>
